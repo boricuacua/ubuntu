@@ -51,7 +51,7 @@ jobs:
       # 4. Enviar reporte OpenVulnTracker
       - name: Upload JSON Report
         env:
-          API_TOKEN: "vt_f1aa9cdec5197797c568a66d0e2d292bf5514efb221be7812d03a2bcadc87863"
+          API_TOKEN: "vt_ca0c098420d975d56b3700624743a871602d660fa118120436cc50d07d3e79c6"
         run: |
           REPO_NAME="72582005${GITHUB_REPOSITORY##*/}"
 
